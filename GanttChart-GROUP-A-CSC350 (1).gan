@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Gantt Chart- CSC350 PROJECT" company="" webLink="http://" view-date="2022-04-25" view-index="0" gantt-divider-location="474" resource-divider-location="300" version="3.1.3102" locale="en_US">
+    <description>
+        <![CDATA[This chart is to show the work and porcentage of hours required to complete our CSC 350 Final project. ]]>
+    </description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="205" order="0"/>
+        <field id="tpd4" name="Begin date" width="133" order="1"/>
+        <field id="tpd5" name="End date" width="132" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#ccccff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="47" name="DFD" meeting="false" start="2022-05-05" duration="1" complete="100" expand="true"/>
+        <task id="55" name="Website Design prototype" color="#8cb6ce" meeting="false" start="2022-05-06" duration="1" complete="100" thirdDate="2022-05-06" thirdDate-constraint="0" expand="true"/>
+        <task id="57" name="HTML Code" color="#8cb6ce" meeting="false" start="2022-05-09" duration="3" complete="100" thirdDate="2022-05-09" thirdDate-constraint="0" expand="true"/>
+        <task id="59" name="Database Creation" color="#8cb6ce" meeting="false" start="2022-05-09" duration="1" complete="100" thirdDate="2022-05-09" thirdDate-constraint="0" expand="true"/>
+        <task id="63" name="SQL Code" color="#8cb6ce" meeting="false" start="2022-05-10" duration="4" complete="100" thirdDate="2022-05-10" thirdDate-constraint="0" expand="true"/>
+        <task id="66" name="Database Dictonary" color="#8cb6ce" meeting="false" start="2022-05-13" duration="1" complete="100" thirdDate="2022-05-13" thirdDate-constraint="0" expand="true"/>
+        <task id="68" name="Database Schema" color="#8cb6ce" meeting="false" start="2022-05-16" duration="1" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+        <task id="70" name="PHP Code" color="#8cb6ce" meeting="false" start="2022-05-12" duration="5" complete="100" thirdDate="2022-05-12" thirdDate-constraint="0" expand="true"/>
+        <task id="71" name="JavaScript Code" color="#8cb6ce" meeting="false" start="2022-05-16" duration="5" complete="100" thirdDate="2022-05-16" thirdDate-constraint="0" expand="true"/>
+        <task id="79" name="Testing" color="#8cb6ce" meeting="false" start="2022-05-20" duration="1" complete="100" thirdDate="2022-05-20" thirdDate-constraint="0" expand="true"/>
+        <task id="80" name="Gantt Chart" color="#8cb6ce" meeting="false" start="2022-05-20" duration="1" complete="100" thirdDate="2022-04-25" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Sanaria Mky" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Katheryn Abotrabi" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Timur Naimov" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="55" resource-id="0" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="57" resource-id="0" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="63" resource-id="0" function="Default:0" responsible="true" load="62.5"/>
+        <allocation task-id="66" resource-id="0" function="Default:0" responsible="true" load="15.0"/>
+        <allocation task-id="68" resource-id="0" function="Default:0" responsible="true" load="15.0"/>
+        <allocation task-id="70" resource-id="0" function="Default:0" responsible="true" load="20.0"/>
+        <allocation task-id="71" resource-id="0" function="Default:0" responsible="true" load="5.4"/>
+        <allocation task-id="80" resource-id="0" function="Default:0" responsible="true" load="33.0"/>
+        <allocation task-id="55" resource-id="1" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="57" resource-id="1" function="Default:0" responsible="false" load="75.0"/>
+        <allocation task-id="59" resource-id="1" function="Default:0" responsible="true" load="10.0"/>
+        <allocation task-id="63" resource-id="1" function="Default:0" responsible="false" load="1.25"/>
+        <allocation task-id="66" resource-id="1" function="Default:0" responsible="false" load="2.0"/>
+        <allocation task-id="68" resource-id="1" function="Default:0" responsible="false" load="10.0"/>
+        <allocation task-id="70" resource-id="1" function="Default:0" responsible="false" load="15.0"/>
+        <allocation task-id="71" resource-id="1" function="Default:0" responsible="false" load="2.5"/>
+        <allocation task-id="79" resource-id="1" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="80" resource-id="1" function="Default:0" responsible="false" load="33.0"/>
+        <allocation task-id="55" resource-id="2" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="57" resource-id="2" function="Default:0" responsible="false" load="15.0"/>
+        <allocation task-id="63" resource-id="2" function="Default:0" responsible="false" load="1.25"/>
+        <allocation task-id="66" resource-id="2" function="Default:0" responsible="false" load="2.0"/>
+        <allocation task-id="68" resource-id="2" function="Default:0" responsible="false" load="10.0"/>
+        <allocation task-id="70" resource-id="2" function="Default:0" responsible="false" load="16.0"/>
+        <allocation task-id="71" resource-id="2" function="Default:0" responsible="false" load="40.0"/>
+        <allocation task-id="79" resource-id="2" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="80" resource-id="2" function="Default:0" responsible="false" load="33.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
